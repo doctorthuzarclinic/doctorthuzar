@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Thu Zar</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Pyidaungsu:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --primary:#ff4081;
+  --secondary:#f50057;
+  --bg:#fff0f5;
+  --text:#333;
+  --white:#fff;
+  --green:#2e7d32;
+  --blue:#0056b3;
+}
+
+body{
+  font-family:'Pyidaungsu',sans-serif;
+  background:var(--bg);
+  margin:0;
+  color:var(--text);
+}
+
+.container{max-width:600px;margin:auto;padding:20px;}
+
+header{
+  background:#fff;
+  text-align:center;
+  padding:20px;
+  border-radius:0 0 20px 20px;
+  box-shadow:0 4px 15px rgba(255,64,129,.2);
+}
+
+.header-logo-img{
+  width:200px;
+  margin-bottom:0px;
+}
+
+.logo h1{color:var(--primary);margin:5px 0;}
+.subtitle{font-size:14px;color:#666;}
+
+.card{
+  background:#fff;
+  border-radius:15px;
+  padding:20px;
+  margin-bottom:20px;
+  box-shadow:0 2px 10px rgba(0,0,0,.05);
+  border-top:4px solid var(--primary);
+}
+
+h2{
+  color:var(--secondary);
+  font-size:18px;
+  border-bottom:1px dashed #ddd;
+  padding-bottom:8px;
+}
+
+.price-box{
+  border:2px solid #f5c2d1;
+  border-radius:12px;
+  padding:12px;
+  margin-bottom:15px;
+}
+
+.price-row{
+  display:flex;
+  justify-content:space-between;
+  padding:6px 0;
+  border-bottom:1px solid #eee;
+}
+
+.price-row:last-child{border:none;}
+
+.amount{color:var(--green);font-weight:bold;}
+
+.note{
+  background:#fff5f8;
+  padding:10px;
+  border-left:4px solid var(--primary);
+  border-radius:8px;
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+.kpay-card{
+  background:linear-gradient(135deg,#fff,#e3f2fd);
+  border:2px solid #2196f3;
+  text-align:center;
+}
+
+.kpay-logo-img{
+  width:100px;
+  margin-bottom:10px;
+}
+
+.account-info{
+  background:#fff;
+  border:1px dashed #2196f3;
+  border-radius:10px;
+  padding:10px;
+  margin:10px auto;
+  width:90%;
+}
+
+.acc-name{color:var(--blue);font-weight:bold;}
+.acc-phone{font-size:22px;font-weight:bold;}
+
+.btn{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:15px;
+  border-radius:50px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.viber{background:#7360f2;}
+.messenger{background:#0084ff;}
+
+.warning{
+  background:#fff3cd;
+  border-left:5px solid #ffc107;
+  padding:15px;
+  border-radius:10px;
+  font-size:14px;
+}
+
+footer{text-align:center;font-size:12px;color:#999;margin-bottom:20px;}
+</style>
+</head>
+
+<body>
+
+<header>
+  <!-- LOGO -->
+  <img src="logo.png" alt="Dr Thu Zar Logo" class="header-logo-img">
+  <div class="logo"><h1>Dr.Thu Zar</h1></div>
+  <div class="subtitle">Women’s Health & Family Planning</div>
+</header>
+
+<div class="container">
+
+<div class="card" style="text-align:center;background:linear-gradient(to right,#ff9a9e,#fad0c4);">
+  <h3 style="color:white;margin:0;">နွေးထွေးပျူငှာသော ဝန်ဆောင်မှု</h3>
+  <p style="color:white;font-size:14px;">
+    ကိုယ်ရေးကိုယ်တာလုံခြုံမှုကို<br>အပြည့်အဝအာမခံပါသည်
+  </p>
+</div>
+
+<div class="card">
+<h2><i class="fas fa-tags"></i> ဈေးနှုန်းများ</h2>
+
+<div class="note">
+<i class="fas fa-info-circle"></i>
+ကိုယ်ဝန်လအရွယ်အစားပေါ်မူတည်၍ </b><br>
+စျေးနှုန်းများ မတူညီပါ။
+</div>
+
+<div class="note">
+<i class="fas fa-pills"></i>
+ကိုယ်ဝန် <b>၃ လအထက်</b> တွင်
+<b>သောက်ဆေး</b> နှင့် <b>ထည့်ဆေး</b> (ဆေး ၂ မျိုး)</b><br>
+ကြိုက်နှစ်သက်ရာကို ရွေးချယ်နိုင်ပါသည်။
+</div>
+
+<div class="price-box">
+<b>ကိုယ်ဝန် ၁ လ မှ ၂ လ</b>
+<div class="price-row">
+<span>သောက်ဆေး<b> 
+(၂ရက်စာ)</span>
+<span class="amount">
+၂၃၀,၀၀၀ ကျပ်</span>
+</div>
+</div>
+
+<div class="price-box">
+<b>ကိုယ်ဝန် ၃ လ မှ ၄ လ</b>
+<div class="price-row">
+<span>ထည့်ဆေး</span>
+<span class="amount">၂၈၀,၀၀၀ ကျပ်</span>
+</div>
+<div class="price-row">
+<span>သောက်ဆေး</span>
+<span class="amount">၃၂၀,၀၀၀ ကျပ်</span>
+</div>
+</div>
+
+<div class="price-box">
+<b>ကိုယ်ဝန် ၅ လ မှ ၆ လ</b>
+<div class="price-row">
+<span>ထည့်ဆေး</span>
+<span class="amount">၄၀၀,၀၀၀ ကျပ်</span>
+</div>
+<div class="price-row">
+<span>သောက်ဆေး</span>
+<span class="amount">၃၇၀,၀၀၀ ကျပ်</span>
+</div>
+</div>
+
+<div class="warning">
+<i class="fas fa-certificate"></i>
+<b>ဆေးထောက်ခံချက်</b><br>
+FDA ထောက်ခံချက်ရရှိထားသောကြောင့် စိတ်ချယုံကြည်စွာ အသုံးပြုနိုင်ပါသည်။
+</div>
+</div>
+
+<div class="card kpay-card">
+  <!-- KPAY LOGO -->
+  <img src="kpay.png" alt="KPay Logo" class="kpay-logo-img">
+
+  <h2 style="color:#0056b3;border:none;">KPay ဖြင့် ငွေလွှဲရန်</h2>
+  <div class="account-info">
+    <div>Name</div>
+    <div class="acc-name">Mg Thiha</div>
+    <hr>
+    <div>Phone</div>
+    <div class="acc-phone">09650653508</div>
+  </div>
+</div>
+
+<div class="card">
+<h2><i class="fas fa-paper-plane"></i> ဆက်သွယ်ရန်</h2>
+<a href="viber://chat?number=%2B959253040631" class="btn viber">
+<i class="fab fa-viber"></i>&nbsp; Viber
+</a>
+<a href="https://m.me/DrThuZar2026" class="btn messenger">
+<i class="fab fa-facebook-messenger"></i>&nbsp;Page Messenger 
+</a>
+</div>
+
+</div>
+
+<footer>
+  <div style="margin-bottom:6px;">
+    © 2026 <b>Dr. Thu Zar</b>
+  </div>
+
+  <div>
+    Women’s Health & Family Planning Service
+  </div>
+
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>
